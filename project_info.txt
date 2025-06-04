@@ -1,1 +1,5 @@
-7ada1f0ae3cf27c276b6ab84aac13c154112aabd
+Project Info DP-data:
+
+Dit project richt zich op het synthetiseren van openbaar vervoer smart card data met privacy als prioriteit. De uitvoerdata moet bruikbaar blijven voor analyses, maar individuele reizigers mogen niet te traceren zijn. 
+
+De card-id kolom mag niet gebruikt worden voor training, maar wel om reisfrequentie per gebruiker te analyseren. Relevante eigenschappen in de uitvoerdata zijn o.a. reistijd, reisdag, aantal reizigers tussen stops per tijdstip en type kaart.
