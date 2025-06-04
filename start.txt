@@ -1,0 +1,8 @@
+This project's main goal is to synthesize smart card public transport data. The output data should take into account privacy concerns. This means that no individual can be tracked in the output data.
+The output data should have the same characteristcs as the input data. This means that when one wants to performs an analysis on the data, one should get similiar results that are about the same significance as the same analysis on the input data.
+
+The input data is based on a trip-level. Each trip is made by a user, described by a card-id. Now it is not preferred that the model is trained on or uses these card-id. 
+Rather this should be used to analyse and train on the frequency that a user travels. Therefore, the column card-id cannot be dropped totally.
+
+Among the characteristics of the output data that should resemble are the time of travel, the day of travel, the amount of traveler between two bus-stops at given timeframe. This all can also differ per card type, which should also be taken into account.
+
