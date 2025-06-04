@@ -1,1 +1,9 @@
-60129f0d27370bb3174861db6df8154557e08856
+Projectstappen voor DP-data:
+
+1. Synthetiseer openbaar vervoer smart card data met privacy in gedachten, zodat individuele reizigers niet getraceerd kunnen worden.
+
+2. De uitvoerdata moet dezelfde karakteristieken hebben als de invoerdata, zodat analyses vergelijkbare resultaten opleveren. 
+
+3. Train niet op de card-id kolom, maar gebruik deze om reisfrequentie per gebruiker te analyseren.
+
+4. Neem in de uitvoerdata eigenschappen op als reistijd, reisdag, aantal reizigers tussen stops op gegeven tijden, gesplitst per kaarttype.
